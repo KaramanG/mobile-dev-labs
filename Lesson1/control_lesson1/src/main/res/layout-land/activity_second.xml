@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New life for mirea activity! (LANDSCAPE)"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+
+        <TableRow>
+            <Button android:text="Кнопка 1" />
+            <Button android:text="Кнопка 2" />
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="Кнопка 3" />
+            <Button android:text="Кнопка 4" />
+        </TableRow>
+
+        <TableRow>
+            <Button android:text="Кнопка 5" />
+            <Button android:text="Кнопка 6" />
+        </TableRow>
+    </TableLayout>
+
+</TableLayout>
